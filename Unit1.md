@@ -34,6 +34,7 @@ print("Number of RAM you ordered:{},Number of CPU you ordered:{}, Number of Moth
 -Second test of text based menu (more advanced):
 ```.py
 
+
 print("Computer Shop Menu")
 print("="*20)
 print("1.RAM: 50$")
@@ -54,7 +55,9 @@ RAM_cost = (int(RAM_num) * 50)
 CPU_cost = (int(CPU_num) * 80)
 Motherboard_cost = (int(Motherboard_num) * 40)
 GPU_cost = (int(GPU_num) * 60)
+Total_cost = int(RAM_cost+CPU_cost+Motherboard_cost+GPU_cost)
 print("")
 print("Total Cost:({}+{}+{}+{})$".format(RAM_cost, CPU_cost, Motherboard_cost, GPU_cost))
+print("or {}$".format(Total_cost))
 
 ```
