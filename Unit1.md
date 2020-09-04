@@ -61,3 +61,32 @@ print("Total Cost:({}+{}+{}+{})$".format(RAM_cost, CPU_cost, Motherboard_cost, G
 print("or {}$".format(Total_cost))
 
 ```
+-Third test of texted based menu (including text justify):
+```.py
+print("Computer Shop Menu")
+print("="*20)
+def printItem(Computer_items, leftWidth, rightWidth):
+    for k, v in Computer_items.items():
+        print(k.ljust(leftWidth, '.') + str(v).rjust(rightWidth)+"$")
+Computer_items={"RAM":50,"CPU":80,"Motherboard":40,"GPU":60}       
+printItem(Computer_items,20,10)
+print("")
+print("Choose your option:")
+RAM_num = input("Number of RAM I want to order:")
+CPU_num = input("Number of CPU I want to order:")
+Motherboard_num = input("Number of Motherboard I want to order:")
+GPU_num = input("Number of GPU I want to order:")
+print("")
+print("="*20)
+print("Your order is:")
+print("Number of RAM you ordered:{},Number of CPU you ordered:{}, Number of Motherboard you ordered:{},Number of GPU you ordered:{}".format(RAM_num,CPU_num,Motherboard_num, GPU_num))
+RAM_cost = (int(RAM_num) * 50)
+CPU_cost = (int(CPU_num) * 80)
+Motherboard_cost = (int(Motherboard_num) * 40)
+GPU_cost = (int(GPU_num) * 60)
+Total_cost = int(RAM_cost+CPU_cost+Motherboard_cost+GPU_cost)
+print("")
+print("Total Cost:({}+{}+{}+{})$".format(RAM_cost, CPU_cost, Motherboard_cost, GPU_cost))
+print("or {}$".format(Total_cost))
+
+```
