@@ -8,7 +8,8 @@ There is a hardware store in Karuizawa. This store is quite old and 1000 years o
 ### Justification of the problem
 ** Here we will design the statement, what will we do, how, by when **
 
-## Development
+## Criteria C: Development
+1. Computer Shop Menu
 -First test of text based menu:
 ```.py
 
@@ -117,5 +118,41 @@ Total_cost = int(RAM_cost+CPU_cost+Motherboard_cost+GPU_cost)
 print("")
 print("Total Cost:({}+{}+{}+{})$".format(RAM_cost, CPU_cost, Motherboard_cost, GPU_cost))
 print("or {}$".format(Total_cost))
+
+```
+2. Simulation of a dice (using random library)
+
+-Version 1:
+```.py
+
+import random
+
+number_of_1 = 0
+number_of_2 = 0
+number_of_3 = 0
+number_of_4 = 0
+number_of_5 = 0
+number_of_6 = 0
+
+num_of_trial=10000
+
+for num in range(num_of_trial):
+    num_rolled = random.randint(0,59)
+    if num_rolled<10:
+           number_of_1+=1
+    elif 9<num_rolled<20:
+        number_of_2 += 1
+    elif 19<num_rolled<30:
+        number_of_3 +=1
+    elif 29<num_rolled<40:
+        number_of_4 +=1
+    elif 39<num_rolled<50:
+        number_of_5 +=1
+    elif 49<num_rolled<60:
+        number_of_6 +=1
+
+for num_print in range(6):
+    print("We rolled {}  face 1, {}  face 2, {}  face 3, {}  face 4, {}  face 5, {} face 6, expected {} for each face".format(number_of_1,number_of_2,number_of_3,
+                                                                                        number_of_4,number_of_5,number_of_6, num_of_trial/6))
 
 ```
