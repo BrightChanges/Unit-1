@@ -219,7 +219,7 @@ for trial, number in enumerate(num_trial):
     print("Coordinates for graph: ({},{})".format(number,Mean_Square_Error))
 
 ```
-Manual graph using Mathplotlib with python (data of coordinates are taken from running version 3):
+-Manual graph using Mathplotlib with python (data of coordinates are taken from running version 3):
 ```.py
 import matplotlib.pyplot as plt
 
