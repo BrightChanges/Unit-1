@@ -219,3 +219,16 @@ for trial, number in enumerate(num_trial):
     print("Coordinates for graph: ({},{})".format(number,Mean_Square_Error))
 
 ```
+Manual graph using Mathplotlib with python (data of coordinates are taken from running version 3):
+```.py
+import matplotlib.pyplot as plt
+
+plt.plot([10000,20000,30000,40000,50000,60000,70000,80000,90000,100000],
+         [680,1361,2041,2721,3401,4082,4762,5442,6123,6803])
+
+plt.ylabel("Mean Square Error")
+plt.xlabel("Number of Trial")
+plt.show()
+
+
+```
