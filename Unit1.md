@@ -188,3 +188,34 @@ for index, c in enumerate(count):
     print("MSE is {}".format(Mean_Square_Error))
 
 ```
+-Version 3 (more compact, included MSE for 10000~10000 trials):
+```.py
+import random
+
+count = [0, 0, 0, 0, 0, 0]
+num_trial = [10000,20000,30000,40000,50000,60000,70000,80000,90000,100000]
+
+for trial, number in enumerate(num_trial):
+    n = random.randint(1, 60)
+    if n < 9:
+        count[0] += 1
+    if 9 < n < 19:
+        count[1] += 1
+    if 19 < n < 29:
+        count[2] += 1
+    if 29 < n < 39:
+        count[3] += 1
+    if 39 < n < 49:
+        count[4] += 1
+    if 49 < n < 59:
+        count[5] += 1
+
+    expected_value = number / 6
+
+    Mean_Square_Error = 1 / 6 * ((((count[0] - expected_value) ** 2) + ((count[1] - expected_value) ** 2) +
+                                  ((count[2] - expected_value) ** 2) + ((count[3] - expected_value) ** 2) +
+                                  ((count[4] - expected_value) ** 2) + ((count[5] - expected_value) ** 2)) ** 0.5)
+    print(" At {} trials, MSE is {}".format(number,Mean_Square_Error))
+    print("Coordinates for graph: ({},{})".format(number,Mean_Square_Error))
+
+```
