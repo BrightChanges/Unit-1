@@ -220,6 +220,7 @@ for trial, number in enumerate(num_trial):
 
 ```
 -Manual graph using Mathplotlib with python (data of coordinates are taken from running version 3):
+Picture of the graph is at:https://github.com/BrightChanges/Unit-1/blob/master/Screen%20Shot%200002-09-10%20at%203.16.46%20PM.png
 ```.py
 import matplotlib.pyplot as plt
 
