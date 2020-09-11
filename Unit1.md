@@ -11,10 +11,14 @@ There is a hardware store in Karuizawa. This store is quite old and 1000 years o
 ## Criteria B: Design
 
 ### System Diagram
-! [](IMG_9417.JPG)
+Picture is at: https://github.com/BrightChanges/Unit-1/blob/master/Screen%20Shot%200002-09-11%20at%2012.09.50%20PM.png
+
+### Flow Diagram
+Picture is at: https://github.com/BrightChanges/Unit-1/blob/master/Screen%20Shot%200002-09-11%20at%2012.11.24%20PM.png
 
 ## Criteria C: Development
 1. Computer Shop Menu
+-Flow diagram is at: 
 -First test of text based menu:
 ```.py
 
