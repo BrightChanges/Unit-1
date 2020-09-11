@@ -11,7 +11,7 @@ There is a hardware store in Karuizawa. This store is quite old and 1000 years o
 ## Criteria B: Design
 
 ### System Diagram
-
+! [](IMG_9417.JPG)
 
 ## Criteria C: Development
 1. Computer Shop Menu
