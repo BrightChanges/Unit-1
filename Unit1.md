@@ -225,7 +225,7 @@ for trial, number in enumerate(num_trial):
 
 ```
 -Manual graph using Mathplotlib with python (data of coordinates are taken from running version 3):
- ! [](Screen Shot 0002-09-10 at 3.16.46 PM.png)
+ ! [ ](Screen Shot 0002-09-10 at 3.16.46 PM.png)
 ```.py
 import matplotlib.pyplot as plt
 
