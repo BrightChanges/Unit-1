@@ -8,6 +8,11 @@ There is a hardware store in Karuizawa. This store is quite old and 1000 years o
 ### Justification of the problem
 ** Here we will design the statement, what will we do, how, by when **
 
+## Criteria B: Design
+
+### System Diagram
+
+
 ## Criteria C: Development
 1. Computer Shop Menu
 -First test of text based menu:
@@ -220,7 +225,7 @@ for trial, number in enumerate(num_trial):
 
 ```
 -Manual graph using Mathplotlib with python (data of coordinates are taken from running version 3):
-Picture of the graph is at:https://github.com/BrightChanges/Unit-1/blob/master/Screen%20Shot%200002-09-10%20at%203.16.46%20PM.png
+Picture of the graph: ! [](Screen Shot 0002-09-10 at 3.16.46 PM.png)
 ```.py
 import matplotlib.pyplot as plt
 
