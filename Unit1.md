@@ -6,7 +6,8 @@
 There is a hardware store in Karuizawa. This store is quite old and 1000 years old. The owner, Mr Sakamoto, wants to upgrade his accounting software, which at the moment is kept on paper. He would like to have a software application that replaces his accounting book. Mr Sakamoto got a MAC PC from his newphew and he likes to use it.
 
 ### Justification of the problem
-** Here we will design the statement, what will we do, how, by when **
+***Here we will design the statement, what will we do, how, by when***
+We want to design a text based application that runs on a computer, which provides the functionality for the hardware store. The app should provides the functionality for the hardware record of purchases, categorization of items, record of inventory, calculation of totals, billing. We will develop this application using Python because it is the programming language we are learning in class. In comparison to C++ or C, Python has a lean and simple programming syntax.
 
 ## Criteria B: Design
 
