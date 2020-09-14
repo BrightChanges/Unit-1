@@ -256,7 +256,7 @@ plt.show()
 
 ```
 
-3.Tax caculator:
+3.Tax calculator:
 
 -Version 1 (without pattern regconition):
 ```.py
