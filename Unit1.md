@@ -323,3 +323,41 @@ for n in range(50):
 
 
 ```
+-Version 3 (with better printing decoration/similar with the decoration of the task given):
+```.py
+#Tax Caculation
+rate = 0
+bill = int(input("Please input the customer's bill (BTC):"))
+
+while True:
+    if bill<0:
+        print("The bill cannot be negative. Try again")
+    if bill == 0:
+        print("The bill is 0BTC. Try again")
+    else:
+        break
+
+#Using pattern recognition (this is because of the same increase in price over 250:250,500,750,1000):
+for n in[0,1,2,3,4]:
+    if 250*n <bill <=250*n+250:
+        rate = 0.25-0.05 * n  #0.05 is the smallest 5% tax and 0.25 is the highest tax, as n increase (which is the bill increasing), the tax will decrease)
+    if bill > 1000:
+        rate = 0.05
+
+
+tax_included_bill = int(bill + bill*rate)
+print("The customer tax rate is {}% of the bill and his tax included bill is {} BTC".format(rate,tax_included_bill))
+
+
+
+def print_frame(b, c):
+    print(c * b)
+    print(c, ' ' * (b - 2), c, sep='')
+    print(c, ' ' *15  , "Bill+Tax= {} BTC".format(tax_included_bill), ' ' *16 , c, sep='')
+    print(c, ' ' * (b- 2), c, sep='')
+    print(c * b)
+
+print_frame(50,'*')
+
+
+```
