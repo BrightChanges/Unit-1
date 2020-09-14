@@ -7,6 +7,7 @@ There is a hardware store in Karuizawa. This store is quite old and 1000 years o
 
 ### Justification of the problem
 ***Here we will design the statement, what will we do, how, by when***
+
 We want to design a text based application that runs on a computer, which provides the functionality for the hardware store. The app should provides the functionality for the hardware record of purchases, categorization of items, record of inventory, calculation of totals, billing. We will develop this application using Python because it is the programming language we are learning in class. In comparison to C++ or C, Python has a lean and simple programming syntax. In addition, Python has become the most popular programming language over the last year [1]. Similary, Python has a large repository of libraries and documentation.
 
 T.E.L.O.S study:
