@@ -363,6 +363,7 @@ print_frame(50,'*')
 
 ```
 4.Perfect number identification simulation:
+-Version 1:
 ```.py
 number = int(input("Input your number:"))
 
@@ -384,5 +385,29 @@ if number == sum_factor+1:
     print("This is a perfect number")
 else:
     print("This isn't a perfect number")
+
+```
+-Version 2:
+```.py
+number = int(input("Input your number:"))
+
+# % get the factors
+factor = 0
+sum_factor = 0
+
+
+
+# for x in range(number-1,1,-1):
+#     if number % x == 0:
+#         sum_factor += x
+
+for x in range(2,number-1):
+    if number % x == 0:
+        sum_factor += x
+
+if number == sum_factor+1:
+    print("{} is a perfect number".format(number))
+else:
+    print("{} isn't a perfect number".format(number))
 
 ```
