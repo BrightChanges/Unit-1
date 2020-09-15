@@ -30,6 +30,10 @@ Picture is at: https://github.com/BrightChanges/Unit-1/blob/master/Screen%20Shot
 ### Flow Diagram
 Picture is at: https://github.com/BrightChanges/Unit-1/blob/master/Screen%20Shot%200002-09-11%20at%2012.11.24%20PM.png
 
+### Computer Diagram:
+Picture is at: https://github.com/BrightChanges/Unit-1/blob/master/computer%20diagram.jpg
+(Explanations is included in the link above)
+
 ## Criteria C: Development
 1. Computer Shop Menu
 -Flow diagram of version 3 is at: https://github.com/BrightChanges/Unit-1/blob/master/Screen%20Shot%200002-09-11%20at%2012.18.28%20PM.png
