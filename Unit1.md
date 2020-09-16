@@ -32,7 +32,7 @@ Picture is at: https://github.com/BrightChanges/Unit-1/blob/master/Screen%20Shot
 
 ### Computer Diagram:
 Picture is at: https://github.com/BrightChanges/Unit-1/blob/master/computer%20diagram.jpg
-(Explanations is included in the link above)
+Explanations: H.W
 
 ## Criteria C: Development
 1. Computer Shop Menu
