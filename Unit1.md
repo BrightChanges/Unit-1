@@ -26,10 +26,12 @@ Technology (Is the project technically possible?), Economics (Can the project be
 
 ### System Diagram
 Picture:
+
 ![](Screen%20Shot%200002-09-11%20at%2012.09.50%20PM.png)
 
 ### Flow Diagram
 Picture:
+
 ![](Screen%20Shot%200002-09-11%20at%2012.11.24%20PM.png)
 
 ### Computer Diagram:
