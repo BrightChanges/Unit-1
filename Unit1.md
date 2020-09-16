@@ -26,6 +26,7 @@ Technology (Is the project technically possible?), Economics (Can the project be
 
 ### System Diagram
 Picture is at: https://github.com/BrightChanges/Unit-1/blob/master/Screen%20Shot%200002-09-11%20at%2012.09.50%20PM.png
+![](Screen%20Shot%200002-09-11%20at%2012.09.50%20PM.png)
 
 ### Flow Diagram
 Picture is at: https://github.com/BrightChanges/Unit-1/blob/master/Screen%20Shot%200002-09-11%20at%2012.11.24%20PM.png
