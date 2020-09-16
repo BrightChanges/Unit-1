@@ -39,7 +39,9 @@ Picture:
 
 ![](computer%20diagram.jpg)
 
-Explanations: H.W
+Explanations: 
+
+As you can see above, the user provide data for the computer to process through input panels of the motherboard, such as USB port, HDMI, network interface card, integrated sound card. Then these data will be processed and stored in the computer’s Motherboard. The Motherboard could stored, update, delete, and pull data from Memories slot (RAM), CPU chipsets, and hard drive slots (storage drives such as SATA connectors). It then gives the desired output by transferring the data to output devices, such as the computer’s screen, printer… The Motherboard also have multiple bus slots which let the user to add more extensions to the computer, such as sound card, video card, and power supply port where user can charge the computer. In addition, the computer may have fan to cool down the Motherboard, real time clock to gives more accurate time and backup batteries. 
 
 ## Criteria C: Development
 1. Computer Shop Menu
