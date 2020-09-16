@@ -415,3 +415,24 @@ else:
     print("{} isn't a perfect number".format(number))
 
 ```
+-Version 2(print all perfect numbers in a range of numbers that the user provide/still give out non-perfect number like 24):
+```.py
+print("You will input the range of number to find how many perfect numbers are in this range.")
+start_number = int(input("Input your starting number:"))
+end_number = int(input("Input your ending number:"))
+
+
+
+def Check_Perfect(start_number, end_number):
+    for i in range(start_number, end_number+1):
+        sum_factor = 0
+        for x in range(1, i):
+            # Check if a divisor
+            if i % x == 0:
+                sum_factor+=x
+                if i == sum_factor:
+                    print(i)
+
+Check_Perfect(start_number, end_number)
+
+```
