@@ -17,6 +17,7 @@ for index, color in enumerate(colors):
 ```
 
 Picture of the result:
+
 ![](Screen%20Shot%200002-09-18%20at%2010.52.08%20AM.png)
 
 Task 2: Using the program above, create another program that allows the user to enter a number and the program outputs the color that should be used in the locker.
@@ -88,4 +89,5 @@ else:
 ```
 
 Picture of the result:
+
 ![](Screen%20Shot%200002-09-18%20at%2010.48.32%20AM.png)
