@@ -36,7 +36,6 @@ print("Your locker's color will be {}".format(user_locker_color))
 ```
 
 [HL] Task 3: Create a program that receives a color from the user, validates the input,  and outputs the numbers of the lockers of the color provided. 
--Version 1 (still have a problem in showing error message in the end of valid input):
 ```.py
 
 user_locker_color = (input("Input your locker's color:"))
