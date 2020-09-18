@@ -36,6 +36,7 @@ print("Your locker's color will be {}".format(user_locker_color))
 ```
 
 [HL] Task 3: Create a program that receives a color from the user, validates the input,  and outputs the numbers of the lockers of the color provided. 
+-Version 1:
 ```.py
 
 user_locker_color = (input("Input your locker's color:"))
@@ -51,6 +52,30 @@ if user_locker_color == "red" or user_locker_color == "white" or user_locker_col
     for index, color in enumerate(colors):
         if color == user_locker_color:
             print("Locker number {} is {}".format(index, user_locker_color))
+else:
+    print("Please retry! Please input your locker's color as red, white, yellow, or blue")
+
+```
+-Version 2 (provide the entire list of numbers of locker with the color the user give):
+```.py
+
+user_locker_color = (input("Input your locker's color:"))
+
+colors =["red","white","yellow","blue"]
+
+user_locker_numbers = []
+
+if user_locker_color == "red" or user_locker_color == "white" or user_locker_color == "yellow" or user_locker_color == "blue":
+    colors.insert(0, "0")
+
+    for y in range(1, 600):
+        colors.extend(colors[1:5])
+
+    for index, color in enumerate(colors):
+        if color == user_locker_color:
+            user_locker_numbers.append(index)
+    print("Here is a list of locker numbers with color {} : {}".format(user_locker_color,user_locker_numbers))
+
 else:
     print("Please retry! Please input your locker's color as red, white, yellow, or blue")
 
