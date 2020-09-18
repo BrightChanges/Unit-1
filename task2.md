@@ -38,11 +38,12 @@ print("Your locker's color will be {}".format(user_locker_color))
 [HL] Task 3: Create a program that receives a color from the user, validates the input,  and outputs the numbers of the lockers of the color provided. 
 -Version 1 (still have a problem in showing error message in the end of valid input):
 ```.py
+
 user_locker_color = (input("Input your locker's color:"))
 
 colors =["red","white","yellow","blue"]
 
-if user_locker_color == "red" or "white" or "yellow" or "blue":
+if user_locker_color == "red" or user_locker_color == "white" or user_locker_color == "yellow" or user_locker_color == "blue":
     colors.insert(0, "0")
 
     for y in range(1, 600):
@@ -51,8 +52,7 @@ if user_locker_color == "red" or "white" or "yellow" or "blue":
     for index, color in enumerate(colors):
         if color == user_locker_color:
             print("Locker number {} is {}".format(index, user_locker_color))
-    
-    else:
-        print("Please retry! Please input your locker's color as red, white, yellow, or blue")
+else:
+    print("Please retry! Please input your locker's color as red, white, yellow, or blue")
 
 ```
