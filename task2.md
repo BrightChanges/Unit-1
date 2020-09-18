@@ -17,5 +17,22 @@ for index, color in enumerate(colors):
 ```
 
 Task 2: Using the program above, create another program that allows the user to enter a number and the program outputs the color that should be used in the locker.
+```.py
+
+user_locker_number = int(input("Input your locker number:"))
+colors =["red","white","yellow","blue"]
+
+colors.insert(0,"0")
+
+for y in range(1,600):
+    colors.extend(colors[1:5])
+
+
+
+user_locker_color = colors[user_locker_number]
+
+print("Your locker's color will be {}".format(user_locker_color))
+
+```
 
 [HL] Task 3: Create a program that receives a color from the user, validates the input,  and outputs the numbers of the lockers of the color provided. 
