@@ -40,6 +40,7 @@ print("Your locker's color will be {}".format(user_locker_color))
 ```
 
 Picture of the result:
+
 ![](Screen%20Shot%200002-09-18%20at%2010.51.04%20AM.png)
 
 [HL] Task 3: Create a program that receives a color from the user, validates the input,  and outputs the numbers of the lockers of the color provided. 
