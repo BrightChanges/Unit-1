@@ -1,3 +1,6 @@
+## I answered about computational skills, super computer... in this Google Docs:
+https://docs.google.com/document/d/1s07F1yNnhbOg2bXWz06Qewh004PHwalQMfPVZBgbdec/edit?usp=sharing
+
 In a school there are 2400 students and each student uses one locker. Each locker has a unique number from 1 to 2400. The lockers are to be painted in four colours:
 red, white, yellow and blue, in order of locker numbers.
 The pattern of colours continues in this manner. For example, locker number 15 will be painted yellow.
