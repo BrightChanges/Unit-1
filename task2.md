@@ -1,4 +1,4 @@
-### I answered about computational skills, super computer... in this Google Docs link below:
+### I answered the questions about computational skills, super computer... in this Google Docs link below:
 https://docs.google.com/document/d/1s07F1yNnhbOg2bXWz06Qewh004PHwalQMfPVZBgbdec/edit?usp=sharing
 
 In a school there are 2400 students and each student uses one locker. Each locker has a unique number from 1 to 2400. The lockers are to be painted in four colours:
