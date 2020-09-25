@@ -485,6 +485,8 @@ We use the Caesar Cypher to shift all letters in the database by an amountn of n
 
 -The flow diagram:
 
+![](IMG_3502.JPG)
+
 -The codes:
 ```.py
 #Algorithm for encrypting the text database in Python
