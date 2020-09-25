@@ -479,6 +479,14 @@ def Check_Perfect(start_number, end_number):
 Check_Perfect(start_number, end_number)
 
 ```
+5.Securing the database:
+-How we encrypt the database:
+
+-The flow diagram:
+
+-The codes:
+
+
 ## Criteria D: Functionality
 This is a video
 
