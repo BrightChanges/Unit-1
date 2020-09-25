@@ -485,7 +485,25 @@ Check_Perfect(start_number, end_number)
 -The flow diagram:
 
 -The codes:
+```.py
+#Algorithm for encrypting the text database in Python
 
+all_lines_of_db=open("database.txt","r").readlines()
+# want_to_encrypted_text = all_lines_of_db[0].strip().split(",") #This is used to read out variables in the database like printing
+
+
+
+for line in all_lines_of_db:
+    len_letters = len(line) #counting all the characters
+    encrypted_line = ""
+    
+    for letters in range(len_letters): #looping from 0 to the number of characters
+        print("Letter No.{}, out of {} letters, .......... Completion {:.3f}%".format(letters,(len_letters-1),(letters/(len_letters-1)*100))) #len_line-1 is because we have the 0 counted in the for loop
+        new_letters = chr((ord(line[letters])+5))
+        encrypted_line += new_letters
+    print("Encrypted message is:{}".format(encrypted_line))
+
+```
 
 ## Criteria D: Functionality
 This is a video
