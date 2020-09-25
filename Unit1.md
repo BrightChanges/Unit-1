@@ -481,6 +481,7 @@ Check_Perfect(start_number, end_number)
 ```
 5.Securing the database:
 -How we encrypt the database:
+We use the Caesar Cypher to shift all letters in the database by an amountn of number to the left or to the right. Then we save these shifted letters as one encrypted message.
 
 -The flow diagram:
 
