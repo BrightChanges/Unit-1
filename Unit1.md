@@ -507,6 +507,120 @@ for line in all_lines_of_db:
     print("Encrypted message is:{}".format(encrypted_line))
 
 ```
+6. Encrypt->Decrypt->Update->Encrypt's Program:
+Image of how this works:
+
+
+Steps and codes of to run the program:
+
+ 1. Create an original normal database:
+
+```.py
+
+Item,Quantity,Price
+CPU,2,50
+
+```
+2. Create a program that will encrypt this:
+
+```.py
+#Algorithm for encrypting the text database in Python
+
+all_lines_of_db=open("database.txt","r").readlines()
+# want_to_encrypted_text = all_lines_of_db[0].strip().split(",") #This is used to read out variables in the database like printing
+
+
+
+for line in all_lines_of_db:
+    len_letters = len(line) #counting all the characters
+    encrypted_line = ""
+
+    for letters in range(len_letters): #looping from 0 to the number of characters
+        # print("Letter No.{}, out of {} letters, .......... Completion {:.3f}%".format(letters,(len_letters-1),(letters/(len_letters-1)*100))) #len_line-1 is because we have the 0 counted in the for loop
+        new_letters = chr((ord(line[letters])+5))
+        encrypted_line += new_letters
+    print("Encrypted message is:{}".format(encrypted_line))
+    # encrypted_file = open("data_encrypted.txt","w")
+    # encrypted_file.write(encrypted_line + "\n")
+    with open("data_encrypted.txt","a") as encrypted_file:
+        encrypted_file.write(encrypted_line + "\n")
+
+```
+3. Create a program that will decrypt the original file, update the quantity and encrypted/add the information into "data_encrypted.txt" file:
+```.py
+
+#The program that will read the encrypted file/decrypt it and then increase the quantity of the item in the database by 2, then ecnrypted it and save
+#into a new file.
+
+all_lines_of_db=open("data_encrypted.txt","r").readlines()
+
+
+for line in all_lines_of_db:
+    len_letters = len(line) #counting all the characters
+    decrypted_line = ""
+
+    for letters in range(len_letters): #looping from 0 to the number of characters
+        # print("Letter No.{}, out of {} letters, .......... Completion {:.3f}%".format(letters,(len_letters-1),(letters/(len_letters-1)*100))) #len_line-1 is because we have the 0 counted in the for loop
+        new_letters = chr((ord(line[letters])-5))
+        decrypted_line += new_letters
+    # print("Encrypted message is:{}".format(decrypted_line))
+    with open("new_data.txt", "a") as encrypted_file:
+        encrypted_file.write(decrypted_line + "\n")
+
+######### Open up the decrypted file and update the quantity""""""""""
+all_lines_of_original_db= open("new_data.txt","r").readlines()
+
+line1=all_lines_of_original_db[0].strip()
+print(line1)
+
+line3=all_lines_of_original_db[2].strip()
+print(line3)
+
+index_of_quantity0 = line3.find(",")  #Finding the index of the first "," in the string of line3
+index_of_quantity = index_of_quantity0+1
+
+quantity = line3[index_of_quantity]
+print(quantity)
+
+#increase the quantity of item(CPU) by 2:
+quantity_updated = int(quantity)+2
+
+#Need to encrypt this again
+encrypted_and_update = open("new_data.txt","w")
+update_quantity = line3.replace(quantity,str(quantity_updated))
+encrypted_and_update.write(line1 + "\n")
+encrypted_and_update.write(update_quantity)
+encrypted_and_update.close()
+##########Close the decrypted and updated file#########
+
+##########Open up the decrypted and updated file to encrypt it#############
+all_lines_of_db=open("new_data.txt","r").readlines()
+# want_to_encrypted_text = all_lines_of_db[0].strip().split(",") #This is used to read out variables in the database like printing
+
+
+
+for line in all_lines_of_db:
+    len_letters = len(line) #counting all the characters
+    encrypted_line = ""
+
+    for letters in range(len_letters): #looping from 0 to the number of characters
+        # print("Letter No.{}, out of {} letters, .......... Completion {:.3f}%".format(letters,(len_letters-1),(letters/(len_letters-1)*100))) #len_line-1 is because we have the 0 counted in the for loop
+        new_letters = chr((ord(line[letters])+5))
+        encrypted_line += new_letters
+    # print("Encrypted message is:{}".format(encrypted_line))
+    # encrypted_file = open("data_encrypted.txt","w")
+    # encrypted_file.write(encrypted_line + "\n")
+    with open("data_encrypted.txt","a") as encrypted_file:
+        encrypted_file.write(encrypted_line + "\n")
+
+#####Save and close the updated_encrypted file#########
+
+```
+When people run the 3th python file, they will created 2 text files, one called "new_data.txt" and one called "data_encrypted.txt"
+
+
+
+
 
 ## Criteria D: Functionality
 This is a video
