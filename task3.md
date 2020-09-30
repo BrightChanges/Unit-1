@@ -35,3 +35,4 @@ else:
 
 ```
 -Link to the 3 slides after I donwloaded and used Amazon's virtual machine, LightSail:
+https://docs.google.com/presentation/d/1u8B3wrkpafPkHJ3ZhSwgjxxB2Fl7qH73XrDNIJMAmBI/edit?usp=sharing
