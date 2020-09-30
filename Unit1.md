@@ -508,7 +508,10 @@ for line in all_lines_of_db:
 
 ```
 6. Encrypt->Decrypt->Update->Encrypt's Program:
+
 Image of how this works:
+
+![](IMG_3525.JPG)
 
 
 Steps and codes of to run the program:
