@@ -633,7 +633,7 @@ This is a video
 
 ### Step to test:
 
--Step 1: Create a text file non-encrypted database file with 2 line(the first line need to be the same as the codes below, the second line will starts with whatever the item you want to store, then 1 digits quantity, then the price with no units):
+-Step 1: Create a text file non-encrypted database file called "database.txt" with 2 line(the first line need to be the same as the codes below, the second line will starts with whatever the item you want to store, then 1 digits quantity, then the price with no units):
 ```.py
 
 Item,Quantity,Price
@@ -662,7 +662,7 @@ for line in all_lines_of_db:
         encrypted_file.write(encrypted_line + "\n")
 
 ```
-Step 3: Create a program that will decrypt the original file you created in step 1, update the quantity of 1 item and encrypted/add the information into "data_encrypted.txt" file:
+Step 3: Create a program that will decrypt the original file you created in step 1, update the quantity of 1 item and encrypted by 2 and update/add the information into "data_encrypted.txt" file:
 ```.py
 
 #The program that will read the encrypted file/decrypt it and then increase the quantity of the item in the database by 2, then ecnrypted it and save
@@ -709,7 +709,6 @@ encrypted_and_update.close()
 
 ##########Open up the decrypted and updated file to encrypt it#############
 all_lines_of_db=open("new_data.txt","r").readlines()
-# want_to_encrypted_text = all_lines_of_db[0].strip().split(",") #This is used to read out variables in the database like printing
 
 
 
@@ -718,16 +717,23 @@ for line in all_lines_of_db:
     encrypted_line = ""
 
     for letters in range(len_letters): #looping from 0 to the number of characters
-        # print("Letter No.{}, out of {} letters, .......... Completion {:.3f}%".format(letters,(len_letters-1),(letters/(len_letters-1)*100))) #len_line-1 is because we have the 0 counted in the for loop
         new_letters = chr((ord(line[letters])+5))
         encrypted_line += new_letters
-    # print("Encrypted message is:{}".format(encrypted_line))
-    # encrypted_file = open("data_encrypted.txt","w")
-    # encrypted_file.write(encrypted_line + "\n")
     with open("data_encrypted.txt","a") as encrypted_file:
         encrypted_file.write(encrypted_line + "\n")
 
 #####Save and close the updated_encrypted file#########
 
 ```
+### Evaluate if:
+
+-If the data in "data_encrypted.txt" is encrypted.
+
+-You have been able to created  2 text files, one called "new_data.txt" and one called "data_encrypted.txt" after completing Step 3.
+
+-The 1 digits quantity of the item in the 2st line in the "new_data.txt" will be increased by 2 and be decrypted after completing Step 3.
+
+-The "updated amount by 2" 1 digits quantity of the item in the 2st line and of all other data will be encrypted in "data_encrypted.txt" after completing Step 3.
+
+-"data_encrypted.txt" will contain 4 lines of encrypted data, 2 encrypted lines of the original data you created in Step 1 and 2 encrypted lines of the data you updated in Step 3.
 
