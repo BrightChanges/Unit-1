@@ -727,7 +727,7 @@ for line in all_lines_of_db:
 ```
 ### Evaluate if:
 
--If the data in "data_encrypted.txt" is encrypted.
+-The data in "data_encrypted.txt" is encrypted.
 
 -You have been able to created  2 text files, one called "new_data.txt" and one called "data_encrypted.txt" after completing Step 3.
 
@@ -735,5 +735,5 @@ for line in all_lines_of_db:
 
 -The "updated amount by 2" 1 digits quantity of the item in the 2st line and of all other data will be encrypted in "data_encrypted.txt" after completing Step 3.
 
--"data_encrypted.txt" will contain 4 lines of encrypted data, 2 encrypted lines of the original data you created in Step 1 and 2 encrypted lines of the data you updated in Step 3.
+-"data_encrypted.txt" file will contain 4 lines of encrypted data, 2 encrypted lines of the original data you created in Step 1 and 2 encrypted lines of the data you updated in Step 3.
 
