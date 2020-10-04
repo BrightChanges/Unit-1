@@ -511,7 +511,7 @@ for line in all_lines_of_db:
 
 Image of how this works:
 
-![](IMG_3525.JPG)
+![Diagram of the encryption->decryption->update->encryption process of this program (all 3 steps)](IMG_3566.JPG)
 
 
 Steps and codes of to run the program:
