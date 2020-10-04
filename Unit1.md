@@ -513,6 +513,8 @@ Image of how this works:
 
 ![Diagram of the encryption->decryption->update->encryption process of this program (all 3 steps)](IMG_3566.JPG)
 
+![Continuation of the diagram above](IMG_3567.JPG)
+
 
 Steps and codes of to run the program:
 
