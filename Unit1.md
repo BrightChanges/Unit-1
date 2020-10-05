@@ -55,7 +55,7 @@ Picture:
 
 ![](computer%20diagram.jpg)
 
-Fig.3. Picture of general computer diagram
+Fig.3. Picture of general computer diagram (created by Computer Science's G11 of ISAK Japan in 2020)
 
 Explanations: 
 
