@@ -744,7 +744,7 @@ for line in all_lines_of_db:
 #####Save and close the updated_encrypted file#########
 
 ```
-### Evaluate if:
+### Customer/User evaluate if:
 
 -The data in "data_encrypted.txt" is encrypted.
 
