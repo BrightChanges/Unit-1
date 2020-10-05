@@ -40,16 +40,19 @@ Technology (Is the project technically possible?), Economics (Can the project be
 Picture:
 
 ![](Screen%20Shot%200002-09-11%20at%2012.09.50%20PM.png)
+Fig.1. Picture of general system diagram
 
 ### Flow Diagram
 Picture:
 
 ![](Screen%20Shot%200002-09-11%20at%2012.11.24%20PM.png)
+Fig.2. Picture of general flow diagram
 
 ### Computer Diagram:
 Picture:
 
 ![](computer%20diagram.jpg)
+Fig.3. Picture of general computer diagram
 
 Explanations: 
 
@@ -60,6 +63,7 @@ As you can see above, the user provide data for the computer to process through 
 -Flow diagram of version 3 is at: 
 
 ![](Screen%20Shot%200002-09-11%20at%2012.18.28%20PM.png)
+Fig.4. Flow diagram of version 3 of Computer Shop Menu
 
 -First test of text based menu:
 ```.py
@@ -274,6 +278,7 @@ for trial, number in enumerate(num_trial):
 The picture of the graph:
 
 ![](Screen%20Shot%200002-09-10%20at%203.16.46%20PM.png)
+Fig.5. Picture of the Mathplotlib python graph of the Mean_Square_Error and number of dice rolls.
 
 ```.py
 import matplotlib.pyplot as plt
@@ -491,6 +496,7 @@ We use the Caesar Cypher to shift all letters in the database by an amount of nu
 -The flow diagram:
 
 ![](IMG_3502.JPG)
+Fig.6. Flow diagram of this encryption program
 
 -The codes:
 ```.py
@@ -519,7 +525,7 @@ Image of how this works:
 ![Diagram of the encryption->decryption->update->encryption process of this program (all 3 steps)](IMG_3566.JPG)
 
 ![Continuation of the diagram above](IMG_3567.JPG)
-
+Fig.7. Flow diagram of this advanced encrypt-decrypt-update-encrypt program
 
 Steps and codes of to run the program:
 
