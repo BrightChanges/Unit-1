@@ -30,6 +30,11 @@ Technology (Is the project technically possible?), Economics (Can the project be
 | 2       | Development: Coded the text-based menu system for some parts in the hardware store                     | A working program that shows the menu | 30 min         | Sep 18th               | C         |
 |         |                                                                                                        |                                       |                |                        |           |
 
+### Success criterias for evaluation program (encrypt->decrypt->update->decrypt program):
+
+| Test No | Planned Action                                                                               | Inputs                                        | Expected Output                                                                                 | Success Criteria |
+|---------|----------------------------------------------------------------------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------|------------------|
+| 1       | Secure application: Critical information is kept in an encrypted file, "data_encrypted.txt". | an un-encrypted database file, "database.txt" | encrypted file, "data_encrypted.txt", 's value of the quantity of 1 item is updated/added by 2. | 4                |
 
 ### System Diagram
 Picture:
