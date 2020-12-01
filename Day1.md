@@ -17,3 +17,4 @@ for i in range(len(int_db)):
             print(int_db[i] * int_db[y])
 
 ```
+###Solution: correct pair of numbers is 456 and 1564. The multiplication of this two numbers is **713184**
